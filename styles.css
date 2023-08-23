@@ -1,19 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+a, .secondary-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.hero-container, .placeholder{
+    flex: 1;
+}
+
 .wrapper {
-    max-width: 1170px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  div {
+.dark-background {
     background-color: #1f2937;
   }
 
@@ -29,15 +57,30 @@ body {
     font-weight: bold;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
-a {
-    text-decoration: none;
-    color: #e5e7eb;
+.placeholder {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text, .secondary-text, .signup{
+    margin-right: 40px;
+}
+
+button.signup {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
