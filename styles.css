@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,7 +16,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
 a, .secondary-text {
@@ -21,13 +25,57 @@ a, .secondary-text {
     color: #e5e7eb;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-container{
+    display: flex;
+    gap: 40px;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+
+}
+
+.card-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    flex-shrink: 0;
+    border: 3px solid royalblue;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.subtext{
+    color: #707070;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+}
+
 .hero {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-
 
 .hero-container, .placeholder{
     flex: 1;
