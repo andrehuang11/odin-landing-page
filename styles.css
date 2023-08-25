@@ -25,6 +25,76 @@ a, .secondary-text {
     color: #e5e7eb;
 }
 
+.footer {
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb ;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.call-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 75px 0;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.call-container .text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.call-header {
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.call-text {
+    color: #f9faf8;
+}
+
+.call-container.wrapper button.signup {
+    border: 2px solid #f9faf8;
+    margin: 0 60px;
+    background-color: #3882f6;
+}
+
+.gray-background {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-container.wrapper {
+    padding: 100px 90px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #1f2937;
+    padding-right: 10px;
+}
+
 .information {
     display: flex;
     flex-direction: column;
@@ -102,7 +172,7 @@ a, .secondary-text {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .main-text {
